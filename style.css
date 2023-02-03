@@ -7,6 +7,7 @@
 }
 
 /* Navbar */
+
 nav {
   height: 60px;
   background-color: rgba(42, 42, 42, 255);
@@ -24,19 +25,40 @@ nav .booking_options {
   justify-content: space-evenly;
 }
 nav .icons {
-  height: 35px;
   margin-right: 20px;
 }
-nav .icons img {
-  height: 25px;
-  margin: 0 5px;
-  background-color: white;
-  border-radius: 12px;
+nav .icons .style {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+nav .icons .facebook {
+  background: url("/assets/icons8-facebook.svg") no-repeat center white;
+  background-size: cover;
+}
+nav .icons .instagram {
+  background: url("/assets/icons8-instagram.svg") no-repeat center white;
+  background-size: cover;
+}
+nav .icons .bar_menu {
+  background: url("/assets/burger-bar-menu-cropped.svg") no-repeat center;
+  height: 20px;
+  width: 20px;
+  border: none;
+  background-size: contain;
+}
+nav .icons .instagram:hover {
+  background-image: url("/assets/instagram_hover-cropped.svg");
+}
+nav .icons .facebook:hover {
+  background-image: url("/assets/facebook_hover-cropped.svg");
 }
 
 /* Main */
+
 .top_banner {
-  height: 50%;
   position: relative;
   background-color: rgba(42, 42, 42, 255);
 }
@@ -47,16 +69,63 @@ nav .icons img {
   transform: translate(-50%, -50%);
   z-index: 1;
 }
+.top_banner header .arrow img {
+  position: absolute;
+  width: 238px;
+  top: 250%;
+}
+
+.top_banner header .arrow img {
+  height: 10px;
+  filter: brightness(1);
+}
+
+.top_banner head h1 {
+  height: 95px;
+}
+
+.top_banner header h4 {
+  font-size: 10px;
+  text-align: center;
+}
 
 .top_banner img {
-  width: 100vw;
+  height: 470px;
+  width: 100%;
   filter: brightness(70%);
 }
 
 /* Section */
+
 .about_us {
-  height: 50%;
+  height: 560px;
+  position: relative;
   background-color: rgba(42, 42, 42, 255);
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+.about_us .R_graphic {
+  position: absolute;
+  right: 55%;
+}
+.about_us .R_graphic img {
+  height: 500px;
+  filter: brightness(1.5);
+}
+.about_us figure {
+  width: 390px;
+}
+.about_us figure img {
+  height: 390px;
+  width: 100%;
+}
+.about_us article {
+  width: 390px;
+}
+.about_us header h1 {
+  color: rgba(150, 127, 93, 255);
+  height: 60px;
+  font-size: 2rem;
 }
