@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+/* Navbar */
+nav {
+  height: 60px;
+  background-color: rgba(42, 42, 42, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  height: 35px;
+  margin-left: 20px;
+}
+nav .booking_options {
+  display: flex;
+  width: 140px;
+  justify-content: space-evenly;
+}
+nav .icons {
+  height: 35px;
+  margin-right: 20px;
+}
+nav .icons img {
+  height: 25px;
+  margin: 0 5px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+/* Main */
+.top_banner {
+  height: 50%;
+  position: relative;
+  background-color: rgba(42, 42, 42, 255);
+}
+.top_banner header {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.top_banner img {
+  width: 100vw;
+  filter: brightness(70%);
+}
+
+/* Section */
+.about_us {
+  height: 50%;
+  background-color: rgba(42, 42, 42, 255);
+  display: flex;
+  align-items: center;
+}
