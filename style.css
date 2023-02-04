@@ -36,21 +36,21 @@ nav .icons .style {
   margin-right: 5px;
 }
 nav .icons .facebook {
-  background: url("/assets/icons8-facebook.svg") no-repeat center white;
+  background: url("/assets/facebook.svg") no-repeat center white;
   background-size: cover;
 }
 nav .icons .instagram {
-  background: url("/assets/icons8-instagram.svg") no-repeat center white;
+  background: url("/assets/instagram.svg") no-repeat center white;
   background-size: cover;
 }
 nav .icons .instagram:hover {
-  background-image: url("/assets/instagram_hover-cropped.svg");
+  background-image: url("/assets/instagram_hover.svg");
 }
 nav .icons .facebook:hover {
-  background-image: url("/assets/facebook_hover-cropped.svg");
+  background-image: url("/assets/facebook_hover.svg");
 }
 nav .icons .bar_menu {
-  background: url("/assets/burger-bar-menu-cropped.svg") no-repeat center;
+  background: url("/assets/bar-menu.svg") no-repeat center;
   height: 20px;
   width: 20px;
   border: none;
