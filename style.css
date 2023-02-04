@@ -64,6 +64,7 @@ nav .icons .facebook:hover {
 }
 .top_banner header {
   position: absolute;
+  width: 240px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -72,24 +73,33 @@ nav .icons .facebook:hover {
 .top_banner header .arrow img {
   position: absolute;
   width: 238px;
-  top: 250%;
-}
-
-.top_banner header .arrow img {
+  top: 240%;
   height: 10px;
   filter: brightness(1);
 }
 
-.top_banner head h1 {
+.top_banner header h1 {
   height: 95px;
 }
 
 .top_banner header h4 {
   font-size: 10px;
   text-align: center;
+  position: relative;
 }
 
-.top_banner img {
+.top_banner header h4 .right {
+  position: absolute;
+  left: -3%;
+  bottom: 23%;
+}
+.top_banner header h4 .left {
+  position: absolute;
+  right: -3%;
+  bottom: 23%;
+}
+
+.top_banner picture img {
   height: 470px;
   width: 100%;
   filter: brightness(70%);
@@ -98,7 +108,7 @@ nav .icons .facebook:hover {
 /* Section */
 
 .about_us {
-  height: 560px;
+  min-height: 560px;
   position: relative;
   background-color: rgba(42, 42, 42, 255);
   display: flex;
@@ -115,17 +125,76 @@ nav .icons .facebook:hover {
   filter: brightness(1.5);
 }
 .about_us figure {
-  width: 390px;
+  max-width: 390px;
+  position: relative;
 }
 .about_us figure img {
   height: 390px;
   width: 100%;
 }
 .about_us article {
-  width: 390px;
+  max-width: 390px;
 }
-.about_us header h1 {
+.about_us article header h1 {
   color: rgba(150, 127, 93, 255);
   height: 60px;
   font-size: 2rem;
+}
+
+/* Media Query */
+
+@media (max-width: 480px) {
+  /* Navbar */
+  nav .booking_options,
+  nav .icons .facebook,
+  nav .icons .instagram {
+    display: none;
+  }
+  /* Section */
+  .about_us {
+    flex-direction: column-reverse;
+  }
+  .about_us figure {
+    margin-top: 15px;
+  }
+  .about_us figure img {
+    height: 260px;
+    width: 100%;
+  }
+  .about_us article {
+    max-width: 300px;
+  }
+  .about_us article header br + p {
+    margin-top: 10px;
+  }
+  .about_us article header p {
+    font-size: 10px;
+  }
+  .about_us article header br {
+    display: none;
+  }
+  .about_us .R_graphic {
+    right: 15%;
+    top: 38%;
+  }
+  .about_us .R_graphic img {
+    height: 325px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Section */
+  .about_us {
+    flex-direction: column-reverse;
+  }
+  .about_us article {
+    margin-bottom: 35px;
+  }
+  .about_us figure {
+    margin-top: 35px;
+  }
+  .about_us .R_graphic {
+    right: 28%;
+    top: 35%;
+  }
 }

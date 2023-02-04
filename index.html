@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <!-- Navbar -->
     <nav>
         <img class="logo" src="assets/logo-cropped.svg" alt="">
         <div class="booking_options">
@@ -25,20 +26,28 @@
             <a class="instagram style" href="https://www.instagram.com/richkid_tlv/"></a>
             <a class="facebook style" href="https://www.facebook.com/richkid.co.il"></a>
             <button class="bar_menu"></button>
-
         </div>
     </nav>
+    <!-- Main -->
     <main class="top_banner">
         <header>
             <h1>Exclusive Spaces <br>
                 &nbsp; For A Lifetime</h1>
-            <h4> Real Estate Luxury Properties</h4>
+            <h4>
+                <span class="right">_____________</span>
+                Real Estate Luxury Properties
+                <span class="left">_____________</span>
+            </h4>
             <div class="arrow">
                 <img src="./assets/arrow-cropped.svg" alt="">
             </div>
         </header>
-        <img src="./assets/main_top_banner/desktop.jpg" alt="">
+        <picture>
+            <source media="(max-width:480px )" srcset="./assets/main_top_banner/mobile.jpg">
+            <img src="./assets/main_top_banner/desktop.jpg" alt="">
+        </picture>
     </main>
+    <!-- Section -->
     <section class="about_us">
         <div class="R_graphic">
             <img src="assets/about_us_section/R_graphic_element.svg" alt="">
