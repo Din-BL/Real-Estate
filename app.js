@@ -5,7 +5,6 @@ const dot_1 = document.querySelector(".state_1");
 const dot_2 = document.querySelector(".state_2");
 
 // Desktop
-console.log(img.alt);
 setInterval(() => {
   if (img.alt === "Desktop_Img") {
     img.src = "./assets/main_top_banner/desktop2.jpg";
