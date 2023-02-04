@@ -1,3 +1,4 @@
+// Images And Horizontal Dots
 const img = document.querySelector("picture img");
 const source = document.querySelector("picture source");
 const dot_1 = document.querySelector(".state_1");
