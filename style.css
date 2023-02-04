@@ -135,11 +135,11 @@ nav .icons .bar_menu {
   justify-content: center;
   gap: 45px;
 }
-.about_us #R_graphic {
+.about_us #section_graphic {
   position: absolute;
   right: 55%;
 }
-.about_us #R_graphic img {
+.about_us #section_graphic img {
   height: 500px;
   filter: brightness(1.5);
 }
@@ -204,11 +204,11 @@ nav .icons .bar_menu {
   .about_us article br {
     display: none;
   }
-  .about_us #R_graphic {
+  .about_us #section_graphic {
     right: 15%;
     top: 38%;
   }
-  .about_us #R_graphic img {
+  .about_us #section_graphic img {
     height: 325px;
   }
 }
@@ -224,7 +224,7 @@ nav .icons .bar_menu {
   .about_us figure {
     margin-top: 35px;
   }
-  .about_us #R_graphic {
+  .about_us #section_graphic {
     right: 28%;
     top: 35%;
   }
