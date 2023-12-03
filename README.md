@@ -5,7 +5,7 @@
 
 # Real-Estate
 
-I completed a front-end project—a real estate landing page.<br>
+I completed a real estate landing page project.<br>
 Using Flexbox, positions, and media queries, I ensured an eye-catching layout that works well on desktop and mobile.<br>
 I'm proud of the visually appealing and user-friendly result.<br>
 It boosted my confidence in front-end development, and I'm excited for more challenging projects ahead.
